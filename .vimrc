@@ -115,7 +115,8 @@ let g:ctrlp_regexp=0         " search by regex as default
 
 "" Install: Ack: https://github.com/mileszs/ack.vim#can-i-use-ag-the-silver-searcher-with-this
 " git clone https://github.com/mileszs/ack.vim.git ~/.vim/bundle/ack.vim
-nmap <C-f> :Ack<space>  " ctrl + f to use :Ack
+" ctrl + f to use :Ack
+nmap <C-f> :Ack<space>
 "" Install: Silver Searcher: https://github.com/ggreer/the_silver_searcher
 " brew install the_silver_searcher
 
@@ -132,3 +133,8 @@ endif
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
 nnoremap <CR> :noh<CR><CR> " unsets last search pattern register by hitting return
+
+"" Install: Commenting: https://github.com/tpope/vim-commentary
+" cd ~/.vim/bundle
+" git clone https://tpope.io/vim/commentary.git
+" gcc
